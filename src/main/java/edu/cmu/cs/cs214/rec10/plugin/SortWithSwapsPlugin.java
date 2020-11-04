@@ -11,6 +11,7 @@ public class SortWithSwapsPlugin implements GamePlugin {
 
     // Describes whether the current move is over
     public Boolean move = false;
+    private int TWO = 2;
 
     // An array of the numbers 1-10
     private int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
